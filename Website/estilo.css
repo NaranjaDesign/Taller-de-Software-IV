@@ -1,0 +1,126 @@
+*{
+	font-family: arial, sans-serif;
+	
+}
+
+body{
+
+}
+
+header{
+	height:100px;
+}
+
+
+h1{
+
+}
+
+h2{
+	font-family: Lucida Sans Unicode, sans-serif;
+}
+
+h3{
+	font-family: Lucida Sans Unicode, sans-serif;
+}
+
+p{
+	font-family:arial, sans-serif;
+	font-size:14px;
+}
+
+
+#container{
+ 	width:900px;
+ 	margin: auto;
+}
+
+#logo{
+	float:left;
+}
+
+#infocontacto{
+	width:350px;
+	float:right;
+}
+
+#infocontacto p{
+	font-size:12px;
+	margin:2px;
+}
+
+#menu{
+	height:35px;
+
+	float:right;
+}
+
+#menu ul{
+	font-family: Lucida Grande, sans-serif;
+	font-size:18px;
+	list-style: none;
+	padding-left:0px;
+	text-align:center;
+}
+
+#menu li{
+	float: left;
+}
+
+#menu li a:link{
+background-color:silver;
+display:block;
+width:145px;
+height:20px;
+text-decoration:none;
+border:2px solid red;
+color:white;
+font-weight:bold;
+
+}
+#menu li a:hover{
+background-color:black;
+color:white;
+}
+
+#main{
+
+}
+
+#slideshow{
+height: 335px;
+width:590px;
+border:1px solid red;
+background-color:silver;
+
+}
+
+#novedades{
+
+}
+
+.nov{
+	width:284px;
+	height:140px;
+	margin-left:10px;
+	float:left;
+}
+
+#creditos{
+	padding:10px;
+}
+
+#creditos p{
+	font-size:12px;
+	margin:0px;
+}
+
+#cempresa{
+	width:500px;
+	float:left;
+}
+
+#cpagina{
+	width:350px;
+	float:right;
+}
