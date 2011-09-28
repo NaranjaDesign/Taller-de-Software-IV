@@ -4,34 +4,68 @@
 }
 
 body{
-
+	background-color:#BE4327;
 }
 
 header{
-	height:100px;
+	height:105px;
+	margin-bottom:10px;
 }
 
+footer{
+	color:white;
+	padding:10px;
+	margin: 10px auto;
+	width:900px;
+}
+
+footer p{
+	font-family:arial, sans-serif;
+	font-size:12px;
+	margin:5px;
+}
 
 h1{
-
+	font-size:22px;
 }
 
 h2{
-	font-family: Lucida Sans Unicode, sans-serif;
+	position:relative;
+	left:-30px;
+	width:300px;
+	background-color: #53D1DF;
+	color:white;
+	text-shadow: 2px 2px 2px #0066CC;  
+	font-size:22px;
+	border: solid #0066CC 1px;
+	box-shadow: 2px 2px 0px #0066CC;
+	padding:5px;
+	padding-left:20px;
 }
 
+
 h3{
-	font-family: Lucida Sans Unicode, sans-serif;
+	font-family: georgia, times new roman, sans-serif;
+	font-style: italic;
+	font-size:18px;
+	text-decoration:underline;
+	color:#0066FF;
 }
 
 p{
-	font-family:arial, sans-serif;
+	font-family:georgia, times new roman, sans-serif;
 	font-size:14px;
 }
 
+canvas{
+	background-color:black;
+}
 
 #container{
  	width:900px;
+	background-color:white;
+	border-radius: 10px;
+	padding:10px;
  	margin: auto;
 }
 
@@ -50,15 +84,19 @@ p{
 }
 
 #menu{
-	height:35px;
-
+	background-color:black;
+	border: solid black 1px;
+	box-shadow: 2px 2px 0px black;
+	height:30px;
+	margin-top:10px;
 	float:right;
 }
 
 #menu ul{
-	font-family: Lucida Grande, sans-serif;
-	font-size:18px;
+	font-family: Arial, sans-serif;
+	font-size:17px;
 	list-style: none;
+	margin-top:0px;
 	padding-left:0px;
 	text-align:center;
 }
@@ -68,19 +106,22 @@ p{
 }
 
 #menu li a:link{
-background-color:silver;
-display:block;
-width:145px;
-height:20px;
-text-decoration:none;
-border:2px solid red;
-color:white;
-font-weight:bold;
+	background-color:silver;
+	display:block;
+	width:145px;
+	height:25px;
+	text-decoration:none;
+	text-shadow: 2px 2px 0px #666666;
+	margin-right:1px;
+	margin-left:1px;
+	padding-top:5px;
+	color:white;
+	font-weight:bold;
 
 }
 #menu li a:hover{
-background-color:black;
-color:white;
+	background-color:black;
+	color:white;
 }
 
 #main{
@@ -88,21 +129,41 @@ color:white;
 }
 
 #slideshow{
-height: 335px;
-width:590px;
-border:1px solid red;
-background-color:silver;
+	height: 335px;
+	width:590px;
+	border:1px solid #BE4327;
+	box-shadow: 2px 2px 0px #BE4327;
+}
 
+#slideinfo{
+	padding:5px;
+}
+
+#slideinfo h3{
+	margin:0px;
+}
+
+#intro{
+	float: right;
+	padding:10px;
+	width:275px;
+	height: 315px;
+	border:1px solid #BE4327;
+	box-shadow: 2px 2px 0px #BE4327;
 }
 
 #novedades{
-
+	height:220px;
 }
 
 .nov{
-	width:284px;
+	background-color:#F3F3F3;
+	border: solid black 1px;
+	box-shadow: 2px 2px 0px black;
+	width:266px;
 	height:140px;
-	margin-left:10px;
+	padding:10px;
+	margin-right:10px;
 	float:left;
 }
 
@@ -117,7 +178,7 @@ background-color:silver;
 
 #cempresa{
 	width:500px;
-	float:left;
+
 }
 
 #cpagina{
